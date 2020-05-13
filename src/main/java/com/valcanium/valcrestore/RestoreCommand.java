@@ -22,7 +22,7 @@ import java.util.List;
 public class RestoreCommand extends BaseCommand {
 
     @Default
-    @CommandPermission("valcrestore.help")
+    @CommandPermission("valcrestore.use")
     @CommandCompletion("@players ")
     public void onRestore(CommandSender sender, @Optional OfflinePlayer player) {
         if (player == null) {
