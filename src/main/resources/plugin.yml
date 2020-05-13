@@ -1,0 +1,4 @@
+name: ValcRestore
+version: 1.0
+main: com.valcanium.valcrestore.ValcRestore
+author: JohnnyPixelz
